@@ -2,10 +2,10 @@
 
 .nav-bar {
     margin: 20px 0px;
-    display: flex;
     height: 3vw;
+    display: flex;
     padding-bottom: 8px;
-    border-bottom: 2px solid rgb(223, 219, 219);
+    border-bottom: 2px solid rgb(223, 220, 220);
 }
 
 .nav-elem {
@@ -36,7 +36,7 @@
 .search-bar {
     width: 80%;
     height: 100%;
-    border-radius: 15px;
+    border-radius: 20px;
     margin: 5px;
     border: 1px black solid;
 }
@@ -80,14 +80,11 @@
 }
 
 .section-one-content {
-    /* border: 1px black solid; */
-    position: fixed;
-    top: 100px;
+    position: absolute;
+    top: 8vw;
     margin: 30px;
     width: 35vw;
-
-    /* padding-bottom: px; */
-    border-bottom: 2px solid rgb(223, 219, 219);
+    border-bottom: 2px solid rgb(223, 220, 220);
     text-align: left;
 }
 
@@ -96,4 +93,63 @@
 }
 .section-one-paragraph {
     font-size: 20px;
+}
+
+/* ------------- Second Section ------------- */
+
+.section-two {
+    margin: 20px;
+}
+
+.section-two-header {
+    font-weight: 600;
+    font-size: 2.4em;
+    margin: 2px;
+}
+
+.section-two-paragraph {
+    font-size: 1.2em;
+    margin: 4px;
+}
+
+.section-two-content {
+    border: 2px solid rgb(190, 188, 188);
+    padding: 20px;
+}
+
+.section-two-sub-paragraph {
+    font-size: large;
+    width: 75%;
+}
+
+.explore-btn {
+    height: 40px;
+    border: 1px black solid;
+    margin: 20px 0;
+    font-weight: 800;
+}
+
+.section-two-list {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.section-two-list-elem {
+    width: 19%;
+}
+
+.section-two-img {
+    width: 100%;
+}
+.section-two-content-header {
+    text-align: left;
+}
+.section-two-content-desc {
+    text-align: left;
+}
+.section-two-price {
+    text-align: left;
 }
