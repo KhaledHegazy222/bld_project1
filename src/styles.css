@@ -1,0 +1,99 @@
+/* ------------- Navigation Bar ------------- */
+
+.nav-bar {
+    margin: 20px 0px;
+    display: flex;
+    height: 3vw;
+    padding-bottom: 8px;
+    border-bottom: 2px solid rgb(223, 219, 219);
+}
+
+.nav-elem {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    margin: 0px 5px;
+}
+
+.nav-menu-img {
+    height: 100%;
+    display: none;
+}
+
+.nav-logo-img {
+    height: 100%;
+}
+
+.nav-links:hover {
+    color: rgb(114, 23, 174);
+}
+
+.search-div {
+    flex-grow: 1;
+}
+
+.search-bar {
+    width: 80%;
+    height: 100%;
+    border-radius: 15px;
+    margin: 5px;
+    border: 1px black solid;
+}
+.search-btn {
+    height: 100%;
+    border: 1px black solid;
+}
+
+.nav-cart-img {
+    height: 100%;
+}
+
+.log-in {
+    border: 1px black solid;
+    font-weight: 800;
+}
+
+.sign-up {
+    background-color: black;
+    color: white;
+    font-weight: 800;
+}
+
+.nav-language-img {
+    border: 2px black solid;
+    height: 100%;
+}
+
+/* ------------- First Section ------------- */
+
+.section-one {
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.section-one-img {
+    width: 100%;
+}
+
+.section-one-content {
+    /* border: 1px black solid; */
+    position: fixed;
+    top: 100px;
+    margin: 30px;
+    width: 35vw;
+
+    /* padding-bottom: px; */
+    border-bottom: 2px solid rgb(223, 219, 219);
+    text-align: left;
+}
+
+.section-one-header {
+    font-size: 40px;
+}
+.section-one-paragraph {
+    font-size: 20px;
+}
