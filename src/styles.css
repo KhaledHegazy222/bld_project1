@@ -5,7 +5,7 @@
     height: 3vw;
     display: flex;
     padding-bottom: 8px;
-    border-bottom: 2px solid rgb(223, 220, 220);
+    border-bottom: 3px solid rgb(223, 220, 220);
 }
 
 .nav-elem {
@@ -16,9 +16,11 @@
     margin: 0px 5px;
 }
 
+.menu-div {
+    display: none;
+}
 .nav-menu-img {
     height: 100%;
-    display: none;
 }
 
 .nav-logo-img {
@@ -68,23 +70,23 @@
 /* ------------- First Section ------------- */
 
 .section-one {
-    /* border: 1px solid black; */
     display: flex;
-    align-items: center;
+    justify-content: center;
+    align-items: flex-end;
     text-align: center;
-    flex-wrap: wrap;
-}
-
-.section-one-img {
+    flex-wrap: wrap-reverse;
     width: 100%;
 }
 
+.section-one-img-div {
+    margin-left: auto;
+}
+
 .section-one-content {
-    position: absolute;
-    top: 8vw;
     margin: 30px;
-    width: 35vw;
-    border-bottom: 2px solid rgb(223, 220, 220);
+    width: 500px;
+    height: fit-content;
+    border-bottom: 3px solid rgb(223, 220, 220);
     text-align: left;
 }
 
@@ -113,7 +115,7 @@
 }
 
 .section-two-content {
-    border: 2px solid rgb(190, 188, 188);
+    border: 3px solid rgb(190, 188, 188);
     padding: 20px;
 }
 
@@ -152,4 +154,26 @@
 }
 .section-two-price {
     text-align: left;
+}
+
+/* ------------- Responsive Screen ------------- */
+@media screen and (max-width: 950px) {
+    .nav-bar {
+        height: 5vw;
+    }
+    .nav-elem {
+        display: none;
+    }
+    .menu-div {
+        display: inline-block;
+    }
+    .logo-div {
+        display: inline-block;
+        flex-grow: 1;
+        text-align: right;
+    }
+
+    .section-one-img-div {
+        margin: auto;
+    }
 }
