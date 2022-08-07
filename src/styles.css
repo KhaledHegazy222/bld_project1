@@ -1,30 +1,38 @@
 /* ------------- Navigation Bar ------------- */
-
 .nav-bar {
     margin: 20px 0px;
-    height: 3vw;
+    height: 40px;
     display: flex;
     padding-bottom: 8px;
     border-bottom: 3px solid rgb(223, 220, 220);
+}
+
+.nav-form {
+    height: 100%;
+    flex-grow: 1;
 }
 
 .nav-elem {
     display: flex;
     align-items: center;
     text-align: center;
-    height: 100%;
     margin: 0px 5px;
 }
 
 .menu-div {
     display: none;
 }
-.nav-menu-img {
+
+.nav-menu-img,
+.nav-logo-img,
+.search-icon,
+.nav-cart-img,
+.nav-language-img {
     height: 100%;
 }
 
-.nav-logo-img {
-    height: 100%;
+.nav-links {
+    font-size: 1.5vw;
 }
 
 .nav-links:hover {
@@ -32,42 +40,51 @@
 }
 
 .search-div {
-    flex-grow: 1;
+    height: 100%;
+    width: 100%;
+    border: 1px black solid;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
 }
 
 .search-bar {
-    width: 80%;
-    height: 100%;
-    border-radius: 20px;
-    margin: 5px;
-    border: 1px black solid;
+    height: 80%;
+    border: none;
+    flex-grow: 1;
+    margin: 12px;
 }
-.search-btn {
-    height: 100%;
-    border: 1px black solid;
+.search-bar:focus {
+    outline: none;
 }
 
-.nav-cart-img {
+.search-btn {
     height: 100%;
+    border: 2px black solid;
+    font-weight: 600;
 }
 
 .log-in {
-    border: 1px black solid;
     font-weight: 800;
+    border: 2px black solid;
 }
 
 .sign-up {
-    background-color: black;
-    color: white;
     font-weight: 800;
+    color: white;
+    background-color: black;
 }
 
-.nav-language-img {
+.lang-div {
     border: 2px black solid;
-    height: 100%;
 }
 
 /* ------------- First Section ------------- */
+
+.page-main {
+    width: 95vw;
+    margin: auto;
+}
 
 .section-one {
     display: flex;
@@ -80,21 +97,24 @@
 
 .section-one-img-div {
     margin-left: auto;
+    width: 40%;
 }
-
+.section-one-img {
+    width: 100%;
+}
 .section-one-content {
     margin: 30px;
-    width: 500px;
+    width: 50%;
     height: fit-content;
     border-bottom: 3px solid rgb(223, 220, 220);
     text-align: left;
 }
 
 .section-one-header {
-    font-size: 40px;
+    font-size: 2.6vw;
 }
 .section-one-paragraph {
-    font-size: 20px;
+    font-size: 1.7vw;
 }
 
 /* ------------- Second Section ------------- */
@@ -104,43 +124,48 @@
 }
 
 .section-two-header {
+    font-size: 3.5vw;
     font-weight: 600;
-    font-size: 2.4em;
     margin: 2px;
 }
 
 .section-two-paragraph {
-    font-size: 1.2em;
+    font-size: 1.8vw;
     margin: 4px;
 }
 
 .section-two-content {
-    border: 3px solid rgb(190, 188, 188);
+    border: 1px solid rgb(190, 188, 188);
+    font-size: 1.6vw;
     padding: 20px;
 }
 
 .section-two-sub-paragraph {
-    font-size: large;
+    font-size: 1.4vw;
     width: 75%;
 }
 
 .explore-btn {
-    height: 40px;
     border: 1px black solid;
     margin: 20px 0;
-    font-weight: 800;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 2vw;
 }
 
 .section-two-list {
     display: flex;
     align-items: center;
     text-align: center;
+    flex-wrap: wrap;
     justify-content: space-between;
     width: 100%;
+    margin-bottom: 30px;
 }
 
 .section-two-list-elem {
-    width: 19%;
+    width: 200px;
+    margin: 10px auto;
 }
 
 .section-two-img {
@@ -148,32 +173,54 @@
 }
 .section-two-content-header {
     text-align: left;
+    font-size: 13px;
 }
 .section-two-content-desc {
     text-align: left;
+    font-size: 10px;
+    color: grey;
+    margin: 10px 0;
 }
 .section-two-price {
     text-align: left;
+    font-size: 13px;
+    font-weight: 600;
 }
 
 /* ------------- Responsive Screen ------------- */
-@media screen and (max-width: 950px) {
-    .nav-bar {
-        height: 5vw;
-    }
-    .nav-elem {
+
+@media screen and (max-width: 1100px) {
+    .nav-links {
         display: none;
     }
+}
+
+@media screen and (max-width: 980px) {
+    .log-in,
+    .sign-up,
+    .lang-div {
+        display: none;
+    }
+
+    .section-one-img-div {
+        width: 50%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .search-div,
+    .search-btn,
+    .cart-div {
+        display: none;
+    }
+
     .menu-div {
         display: inline-block;
     }
     .logo-div {
-        display: inline-block;
+        width: 100%;
         flex-grow: 1;
-        text-align: right;
-    }
-
-    .section-one-img-div {
-        margin: auto;
+        justify-content: right;
     }
 }
