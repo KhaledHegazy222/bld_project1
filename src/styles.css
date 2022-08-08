@@ -32,7 +32,7 @@
 }
 
 .nav-links {
-    font-size: 1.5vw;
+    font-size: 0.8em;
 }
 
 .nav-links:hover {
@@ -61,7 +61,8 @@
 .search-btn {
     height: 100%;
     border: 2px black solid;
-    font-weight: 600;
+
+    font-weight: bold;
 }
 
 .log-in {
@@ -111,10 +112,10 @@
 }
 
 .section-one-header {
-    font-size: 2.6vw;
+    font-size: 2em;
 }
 .section-one-paragraph {
-    font-size: 1.7vw;
+    font-size: 1.2em;
 }
 
 /* ------------- Second Section ------------- */
@@ -124,24 +125,25 @@
 }
 
 .section-two-header {
-    font-size: 3.5vw;
-    font-weight: 600;
+    font-size: 2em;
+
+    font-weight: bold;
     margin: 2px;
 }
 
 .section-two-paragraph {
-    font-size: 1.8vw;
+    font-size: 1.2em;
     margin: 4px;
 }
 
 .section-two-content {
     border: 1px solid rgb(190, 188, 188);
-    font-size: 1.6vw;
+    font-size: 0.9em;
     padding: 20px;
 }
 
 .section-two-sub-paragraph {
-    font-size: 1.4vw;
+    font-size: 1em;
     width: 75%;
 }
 
@@ -149,8 +151,9 @@
     border: 1px black solid;
     margin: 20px 0;
     padding: 10px;
-    font-weight: 600;
-    font-size: 2vw;
+
+    font-weight: bold;
+    font-size: 1.5em;
 }
 
 .section-two-list {
@@ -164,7 +167,8 @@
 }
 
 .section-two-list-elem {
-    width: 200px;
+    width: 100%;
+    max-width: 200px;
     margin: 10px auto;
 }
 
@@ -174,17 +178,50 @@
 .section-two-content-header {
     text-align: left;
     font-size: 13px;
+    font-weight: bold;
+    margin: 2px 0;
 }
 .section-two-content-desc {
     text-align: left;
     font-size: 10px;
     color: grey;
-    margin: 10px 0;
+    margin: 0;
 }
+
+.rating {
+    float: left;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.rating-list {
+    float: left;
+    padding-left: 9px;
+}
+.rating-value {
+    float: left;
+    color: rgb(174, 79, 31);
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.checked {
+    color: orange;
+}
+
 .section-two-price {
-    text-align: left;
+    float: left;
+
     font-size: 13px;
-    font-weight: 600;
+    font-weight: bold;
+}
+
+.section-two-old-price {
+    float: left;
+    margin-left: 15px;
+    font-size: 12px;
+    color: gray;
 }
 
 /* ------------- Responsive Screen ------------- */
@@ -222,5 +259,9 @@
         width: 100%;
         flex-grow: 1;
         justify-content: right;
+    }
+
+    .section-two-list-elem {
+        max-width: 250px;
     }
 }
