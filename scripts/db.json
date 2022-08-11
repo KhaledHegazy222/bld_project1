@@ -1,0 +1,76 @@
+{
+    "courses": [
+        {
+            "id": 1,
+            "title": "Learn Python: The Complete Python Programming Course",
+            "instructor": "Avinash Jain, The Codex",
+            "newPrice": "E£679.99",
+            "oldPrice": "E£699.99",
+            "img": "media/python1.PNG"
+        },
+        {
+            "id": 2,
+            "title": "Learning Python for Data Analysis and Visualization",
+            "instructor": "Jose Portilla",
+            "newPrice": "E£679.99",
+            "oldPrice": "E£699.99",
+            "img": "media/python2.PNG"
+        },
+        {
+            "id": 3,
+            "title": "Python for Beginners - Learn Programming from scratch",
+            "instructor": "Edwin Diaz, Coding Faculty Solutions",
+            "newPrice": "E£679.99",
+            "oldPrice": "E£699.99",
+            "img": "media/python3.PNG"
+        },
+        {
+            "id": 4,
+            "title": " Learn Python: Python for Beginners",
+            "instructor": "Abrar Hussain",
+            "newPrice": "E£679.99",
+            "oldPrice": "E£699.99",
+            "img": "media/python4.PNG"
+        },
+        {
+            "id": 5,
+            "title": "Python Beyond the Basics - Object-Oriented Programming",
+            "instructor": "Infinite Skills",
+            "newPrice": "E£679.99",
+            "oldPrice": "E£699.99",
+            "img": "media/python5.PNG"
+        },
+        {
+            "id": 6,
+            "title": "Learning Python for Data Analysis and Visualization",
+            "instructor": "Jose Portilla",
+            "newPrice": "E£679.99",
+            "oldPrice": "E£699.99",
+            "img": "media/python2.PNG"
+        },
+        {
+            "id": 7,
+            "title": "Python for Beginners - Learn Programming from scratch",
+            "instructor": "Edwin Diaz, Coding Faculty Solutions",
+            "newPrice": "E£679.99",
+            "oldPrice": "E£699.99",
+            "img": "media/python3.PNG"
+        },
+        {
+            "id": 8,
+            "title": " Learn Python: Python for Beginners",
+            "instructor": "Abrar Hussain",
+            "newPrice": "E£679.99",
+            "oldPrice": "E£699.99",
+            "img": "media/python4.PNG"
+        },
+        {
+            "id": 9,
+            "title": "Python Beyond the Basics - Object-Oriented Programming",
+            "instructor": "Infinite Skills",
+            "newPrice": "E£679.99",
+            "oldPrice": "E£699.99",
+            "img": "media/python5.PNG"
+        }
+    ]
+}
