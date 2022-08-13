@@ -1,0 +1,46 @@
+/* ------------- First Section ------------- */
+
+.page-main {
+    width: 95vw;
+    margin: auto;
+}
+
+.section-one {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+    flex-wrap: wrap-reverse;
+    width: 100%;
+}
+
+.section-one-img-div {
+    margin-left: auto;
+    width: 40%;
+}
+.section-one-img {
+    width: 100%;
+}
+.section-one-content {
+    margin: 30px;
+    width: 50%;
+    height: fit-content;
+    border-bottom: 3px solid rgb(223, 220, 220);
+    text-align: left;
+}
+
+.section-one-header {
+    font-size: 2em;
+}
+.section-one-paragraph {
+    font-size: 1.2em;
+}
+
+/* ------------- Responsive Screen ------------- */
+
+@media screen and (max-width: 980px) {
+    .section-one-img-div {
+        width: 50%;
+        margin: auto;
+    }
+}

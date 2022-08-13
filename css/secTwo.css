@@ -1,0 +1,113 @@
+/* ------------- Second Section ------------- */
+
+.section-two {
+    margin: 20px;
+}
+
+.section-two-header {
+    font-size: 2em;
+
+    font-weight: bold;
+    margin: 2px;
+}
+
+.section-two-paragraph {
+    font-size: 1.2em;
+    margin: 4px;
+}
+
+.section-two-content {
+    border: 1px solid rgb(190, 188, 188);
+    font-size: 0.9em;
+    padding: 20px;
+}
+
+.section-two-sub-paragraph {
+    font-size: 1em;
+    width: 75%;
+}
+
+.explore-btn {
+    border: 1px black solid;
+    margin: 20px 0;
+    padding: 10px;
+
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.section-two-list {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.section-two-list-elem {
+    width: 100%;
+    max-width: 200px;
+    margin: 10px auto;
+}
+
+.section-two-img {
+    width: 100%;
+}
+.section-two-content-header {
+    text-align: left;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 2px 0;
+}
+.section-two-content-desc {
+    text-align: left;
+    font-size: 10px;
+    color: grey;
+    margin: 0;
+}
+
+.rating {
+    float: left;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.rating-list {
+    float: left;
+    padding-left: 9px;
+}
+.rating-value {
+    float: left;
+    color: rgb(174, 79, 31);
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.checked {
+    color: orange;
+}
+
+.section-two-price {
+    float: left;
+
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.section-two-old-price {
+    float: left;
+    margin-left: 15px;
+    font-size: 12px;
+    color: gray;
+}
+
+/* ------------- Responsive Screen ------------- */
+
+@media screen and (max-width: 720px) {
+    .section-two-list-elem {
+        max-width: 250px;
+    }
+}
