@@ -1,3 +1,14 @@
+/*
+    This CSS file is responsible for :
+        Style of responsive Second Section for udemy homepage :
+            1- Header And Paragraph of Section two
+            2- Navigation Bar with tabs for Topics' Coruses
+            3- Topic sub header and sub paragraph for evert topic's tab
+            4- additional button to explore topic's courses
+            5- Responsive Courses List (Each Course includes [title + instrcutor + rating + Price])
+            6- navigation buttons (Left + Right) for more courses
+*/
+
 /* ------------- Second Section ------------- */
 
 .section-two {

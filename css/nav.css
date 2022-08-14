@@ -1,3 +1,11 @@
+/*
+    This CSS file is responsible for :
+        Style of responsive navigation bar for udemy homepage :
+        1- With Large Screens : (Udemy Logo + full Navigation Bar Content + Search bar + (log in + sign up + language) buttons)
+        2- With Midium Screens : (Udemy Logo + Search bar)
+        3- with small Screen : Udemy Logo + Menu icon
+*/
+
 /* ------------- Navigation Bar ------------- */
 
 .nav-bar {

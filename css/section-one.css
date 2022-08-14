@@ -1,3 +1,10 @@
+/*
+    This CSS file is responsible for :
+        Style of responsive First Section for udemy homepage :
+            1- With Large Screens : Alarm Image + Courses-Offer Header (positioned aside)
+            2- with small Screen : Alarm Image + Courses-Offer Header (courses-offer are positioned below the alarm image)
+*/
+
 /* ------------- First Section ------------- */
 
 .page-main {
