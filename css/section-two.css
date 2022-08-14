@@ -5,6 +5,7 @@
 */
 .section-two {
     margin: 20px;
+    position: relative;
 }
 
 .section-two-header {
@@ -38,6 +39,23 @@
     font-size: 1.5em;
 }
 
+.course-btn {
+    font-size: 2rem;
+}
+
+.back-btn {
+    position: absolute;
+    top: 400px;
+    left: 0;
+    z-index: 1;
+}
+.next-btn {
+    position: absolute;
+    top: 400px;
+    right: 0;
+    z-index: 1;
+}
+
 .section-two-list {
     display: grid;
     width: 100%;
@@ -53,12 +71,12 @@
     width: 200px;
     max-width: 400px;
     margin: 10px;
-    border: 1px solid blue;
     box-sizing: border-box;
 }
 
 .section-two-img {
     width: 100%;
+    border: 1px rgb(221, 214, 214) solid;
 }
 .section-two-content-header {
     text-align: left;

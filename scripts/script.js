@@ -84,6 +84,7 @@ function showNext() {
         renderList(data[idx].content.courses, ++courseIdxArr[idx], coursesList);
     }
 }
+
 function showBack() {
     let idx = getActiveTab();
 
@@ -95,11 +96,6 @@ function showBack() {
         renderList(data[idx].content.courses, --courseIdxArr[idx], coursesList);
     }
 }
-
-getData("http://localhost:3000/topic");
-
-let searchBtn = document.querySelector(".search-btn");
-searchBtn.addEventListener("click", search);
 
 function renderPage(pageContnet, topicContentTab) {
     let topic = document.createElement("div");
@@ -124,19 +120,22 @@ function renderPage(pageContnet, topicContentTab) {
     exploreBtn.setAttribute("value", "Explore " + pageContnet.name);
     topicContentTab.appendChild(exploreBtn);
 
-    let backBtn = document.createElement("input");
-    backBtn.setAttribute("type", "button");
-    backBtn.setAttribute("class", "back-btn");
+    let backBtn = document.createElement("button");
+
+    backBtn.setAttribute("class", "back-btn btn");
     backBtn.setAttribute("id", "back-btn-" + pageContnet.id);
-    backBtn.setAttribute("value", "back");
+    backBtn.innerHTML =
+        '<i class="course-btn bi bi-arrow-left-circle-fill"></i>';
+
     backBtn.addEventListener("click", showBack);
     topicContentTab.appendChild(backBtn);
 
-    let nextBtn = document.createElement("input");
-    nextBtn.setAttribute("type", "button");
-    nextBtn.setAttribute("class", "next-btn");
+    let nextBtn = document.createElement("button");
+    nextBtn.setAttribute("class", "next-btn btn");
+    nextBtn.innerHTML =
+        '<i class="course-btn bi bi-arrow-right-circle-fill"></i>';
     nextBtn.setAttribute("id", "next-btn-" + pageContnet.id);
-    nextBtn.setAttribute("value", "next");
+
     nextBtn.addEventListener("click", showNext);
     topicContentTab.appendChild(nextBtn);
 
@@ -209,3 +208,8 @@ function renderList(courses, courseIdx, coursesList) {
         coursesList.appendChild(article);
     }
 }
+
+getData("http://localhost:3000/topic");
+
+let searchBtn = document.querySelector(".search-btn");
+searchBtn.addEventListener("click", search);
