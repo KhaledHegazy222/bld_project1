@@ -4,6 +4,7 @@
 
 */
 .page-main {
+    max-width: 1200px;
     width: 95vw;
     margin: auto;
 }

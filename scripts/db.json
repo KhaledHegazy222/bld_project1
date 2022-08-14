@@ -47,56 +47,56 @@
                         "instructor": "Jose Portilla",
                         "newPrice": "E£679.99",
                         "oldPrice": "E£699.99",
-                        "img": "media/python2.PNG"
+                        "img": "media/python6.jpg"
                     },
                     {
                         "title": "Python for Beginners - Learn Programming from scratch",
                         "instructor": "Edwin Diaz, Coding Faculty Solutions",
                         "newPrice": "E£679.99",
                         "oldPrice": "E£699.99",
-                        "img": "media/python3.PNG"
+                        "img": "media/python7.jpg"
                     },
                     {
                         "title": " Learn Python: Python for Beginners",
                         "instructor": "Abrar Hussain",
                         "newPrice": "E£679.99",
                         "oldPrice": "E£699.99",
+                        "img": "media/python8.jpg"
+                    },
+                    {
+                        "title": "Python Beyond the Basics - Object-Oriented Programming",
+                        "instructor": "Infinite Skills",
+                        "newPrice": "E£679.99",
+                        "oldPrice": "E£699.99",
+                        "img": "media/python3.png"
+                    },
+                    {
+                        "title": "Python Beyond the Basics - Object-Oriented Programming",
+                        "instructor": "Infinite Skills",
+                        "newPrice": "E£679.99",
+                        "oldPrice": "E£699.99",
+                        "img": "media/python10.jpg"
+                    },
+                    {
+                        "title": "Python Beyond the Basics - Object-Oriented Programming",
+                        "instructor": "Infinite Skills",
+                        "newPrice": "E£679.99",
+                        "oldPrice": "E£699.99",
                         "img": "media/python4.PNG"
-                    },
-                    {
-                        "title": "Python Beyond the Basics - Object-Oriented Programming",
-                        "instructor": "Infinite Skills",
-                        "newPrice": "E£679.99",
-                        "oldPrice": "E£699.99",
-                        "img": "media/python5.PNG"
-                    },
-                    {
-                        "title": "Python Beyond the Basics - Object-Oriented Programming",
-                        "instructor": "Infinite Skills",
-                        "newPrice": "E£679.99",
-                        "oldPrice": "E£699.99",
-                        "img": "media/python5.PNG"
-                    },
-                    {
-                        "title": "Python Beyond the Basics - Object-Oriented Programming",
-                        "instructor": "Infinite Skills",
-                        "newPrice": "E£679.99",
-                        "oldPrice": "E£699.99",
-                        "img": "media/python5.PNG"
                     },
                     {
                         "title": " Learn Python: Python for Beginners",
                         "instructor": "Abrar Hussain",
                         "newPrice": "E£679.99",
                         "oldPrice": "E£699.99",
-                        "img": "media/python4.PNG"
+                        "img": "media/python5.PNG"
                     },
                     {
                         "title": "Python Beyond the Basics - Object-Oriented Programming",
                         "instructor": "Infinite Skills",
                         "newPrice": "E£679.99",
                         "oldPrice": "E£699.99",
-                        "img": "media/python5.PNG"
+                        "img": "media/python6.jpg"
                     },
                     {
                         "title": "Learning Python for Data Analysis and Visualization",
@@ -110,7 +110,7 @@
                         "instructor": "Edwin Diaz, Coding Faculty Solutions",
                         "newPrice": "E£679.99",
                         "oldPrice": "E£699.99",
-                        "img": "media/python3.PNG"
+                        "img": "media/python7.jpg"
                     }
                 ]
             }
@@ -127,6 +127,90 @@
                         "instructor": "Avinash Jain, The Codex",
                         "newPrice": "E£679.99",
                         "oldPrice": "E£699.99",
+                        "img": "media/excel1.jpg"
+                    },
+                    {
+                        "title": "Learning Python for Data Analysis and Visualization",
+                        "instructor": "Jose Portilla",
+                        "newPrice": "E£679.99",
+                        "oldPrice": "E£699.99",
+                        "img": "media/excel2.jpg"
+                    },
+                    {
+                        "title": "Python for Beginners - Learn Programming from scratch",
+                        "instructor": "Edwin Diaz, Coding Faculty Solutions",
+                        "newPrice": "E£679.99",
+                        "oldPrice": "E£699.99",
+                        "img": "media/excel3.jpg"
+                    },
+                    {
+                        "title": " Learn Python: Python for Beginners",
+                        "instructor": "Abrar Hussain",
+                        "newPrice": "E£679.99",
+                        "oldPrice": "E£699.99",
+                        "img": "media/python1.PNG"
+                    },
+                    {
+                        "title": "Python Beyond the Basics - Object-Oriented Programming",
+                        "instructor": "Infinite Skills",
+                        "newPrice": "E£679.99",
+                        "oldPrice": "E£699.99",
+                        "img": "media/python2.PNG"
+                    },
+                    {
+                        "title": "Learning Python for Data Analysis and Visualization",
+                        "instructor": "Jose Portilla",
+                        "newPrice": "E£679.99",
+                        "oldPrice": "E£699.99",
+                        "img": "media/python4.PNG"
+                    },
+                    {
+                        "title": "Python for Beginners - Learn Programming from scratch",
+                        "instructor": "Edwin Diaz, Coding Faculty Solutions",
+                        "newPrice": "E£679.99",
+                        "oldPrice": "E£699.99",
+                        "img": "media/python5.PNG"
+                    },
+                    {
+                        "title": " Learn Python: Python for Beginners",
+                        "instructor": "Abrar Hussain",
+                        "newPrice": "E£679.99",
+                        "oldPrice": "E£699.99",
+                        "img": "media/excel1.jpg"
+                    },
+                    {
+                        "title": "Python Beyond the Basics - Object-Oriented Programming",
+                        "instructor": "Infinite Skills",
+                        "newPrice": "E£679.99",
+                        "oldPrice": "E£699.99",
+                        "img": "media/excel2.jpg"
+                    },
+                    {
+                        "title": "Python Beyond the Basics - Object-Oriented Programming",
+                        "instructor": "Infinite Skills",
+                        "newPrice": "E£679.99",
+                        "oldPrice": "E£699.99",
+                        "img": "media/excel3.jpg"
+                    },
+                    {
+                        "title": "Python Beyond the Basics - Object-Oriented Programming",
+                        "instructor": "Infinite Skills",
+                        "newPrice": "E£679.99",
+                        "oldPrice": "E£699.99",
+                        "img": "media/python4.PNG"
+                    },
+                    {
+                        "title": " Learn Python: Python for Beginners",
+                        "instructor": "Abrar Hussain",
+                        "newPrice": "E£679.99",
+                        "oldPrice": "E£699.99",
+                        "img": "media/excel3.jpg"
+                    },
+                    {
+                        "title": "Python Beyond the Basics - Object-Oriented Programming",
+                        "instructor": "Infinite Skills",
+                        "newPrice": "E£679.99",
+                        "oldPrice": "E£699.99",
                         "img": "media/python1.PNG"
                     },
                     {
@@ -134,91 +218,7 @@
                         "instructor": "Jose Portilla",
                         "newPrice": "E£679.99",
                         "oldPrice": "E£699.99",
-                        "img": "media/python2.PNG"
-                    },
-                    {
-                        "title": "Python for Beginners - Learn Programming from scratch",
-                        "instructor": "Edwin Diaz, Coding Faculty Solutions",
-                        "newPrice": "E£679.99",
-                        "oldPrice": "E£699.99",
-                        "img": "media/python3.PNG"
-                    },
-                    {
-                        "title": " Learn Python: Python for Beginners",
-                        "instructor": "Abrar Hussain",
-                        "newPrice": "E£679.99",
-                        "oldPrice": "E£699.99",
-                        "img": "media/python4.PNG"
-                    },
-                    {
-                        "title": "Python Beyond the Basics - Object-Oriented Programming",
-                        "instructor": "Infinite Skills",
-                        "newPrice": "E£679.99",
-                        "oldPrice": "E£699.99",
-                        "img": "media/python5.PNG"
-                    },
-                    {
-                        "title": "Learning Python for Data Analysis and Visualization",
-                        "instructor": "Jose Portilla",
-                        "newPrice": "E£679.99",
-                        "oldPrice": "E£699.99",
-                        "img": "media/python2.PNG"
-                    },
-                    {
-                        "title": "Python for Beginners - Learn Programming from scratch",
-                        "instructor": "Edwin Diaz, Coding Faculty Solutions",
-                        "newPrice": "E£679.99",
-                        "oldPrice": "E£699.99",
-                        "img": "media/python3.PNG"
-                    },
-                    {
-                        "title": " Learn Python: Python for Beginners",
-                        "instructor": "Abrar Hussain",
-                        "newPrice": "E£679.99",
-                        "oldPrice": "E£699.99",
-                        "img": "media/python4.PNG"
-                    },
-                    {
-                        "title": "Python Beyond the Basics - Object-Oriented Programming",
-                        "instructor": "Infinite Skills",
-                        "newPrice": "E£679.99",
-                        "oldPrice": "E£699.99",
-                        "img": "media/python5.PNG"
-                    },
-                    {
-                        "title": "Python Beyond the Basics - Object-Oriented Programming",
-                        "instructor": "Infinite Skills",
-                        "newPrice": "E£679.99",
-                        "oldPrice": "E£699.99",
-                        "img": "media/python5.PNG"
-                    },
-                    {
-                        "title": "Python Beyond the Basics - Object-Oriented Programming",
-                        "instructor": "Infinite Skills",
-                        "newPrice": "E£679.99",
-                        "oldPrice": "E£699.99",
-                        "img": "media/python5.PNG"
-                    },
-                    {
-                        "title": " Learn Python: Python for Beginners",
-                        "instructor": "Abrar Hussain",
-                        "newPrice": "E£679.99",
-                        "oldPrice": "E£699.99",
-                        "img": "media/python4.PNG"
-                    },
-                    {
-                        "title": "Python Beyond the Basics - Object-Oriented Programming",
-                        "instructor": "Infinite Skills",
-                        "newPrice": "E£679.99",
-                        "oldPrice": "E£699.99",
-                        "img": "media/python5.PNG"
-                    },
-                    {
-                        "title": "Learning Python for Data Analysis and Visualization",
-                        "instructor": "Jose Portilla",
-                        "newPrice": "E£679.99",
-                        "oldPrice": "E£699.99",
-                        "img": "media/python2.PNG"
+                        "img": "media/excel1.jpg"
                     },
                     {
                         "title": "Python for Beginners - Learn Programming from scratch",
@@ -346,7 +346,7 @@
             }
         },
         {
-            "id": 3,
+            "id": 4,
             "name": "JavaScript",
             "content": {
                 "header": "Grow your software development skills with JavaScript",
@@ -461,7 +461,7 @@
             }
         },
         {
-            "id": 4,
+            "id": 5,
             "name": "Data Science",
             "content": {
                 "header": "Lead data-driven decisions with Data Science",
@@ -576,7 +576,7 @@
             }
         },
         {
-            "id": 5,
+            "id": 6,
             "name": "AWS Certificate",
             "content": {
                 "header": "Become an expert in cloud computing with AWS Certification",
@@ -691,7 +691,7 @@
             }
         },
         {
-            "id": 6,
+            "id": 7,
             "name": "Drawing",
             "content": {
                 "header": "Expand your creative skillset with Drawing",
