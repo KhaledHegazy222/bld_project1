@@ -1,16 +1,27 @@
-/* ------------- Second Section ------------- */
 /*
-    Section Two (courses) CSS Style
-
+    This CSS file is responsible for :
+        Style of responsive Second Section for udemy homepage :
+            1- Header And Paragraph of Section two
+            2- Navigation Bar with tabs for Topics' Coruses
+            3- Topic sub header and sub paragraph for evert topic's tab
+            4- additional button to explore topic's courses
+            5- Responsive Courses List (Each Course includes [title + instrcutor + rating + Price])
+            6- navigation buttons (Left + Right) for more courses
 */
+
+/* ------------- Second Section ------------- */
+
 .section-two {
     margin: 20px;
-    position: relative;
+}
+
+.topic-elem .nav-link {
+    color: gray;
+    font-weight: bold;
 }
 
 .section-two-header {
     font-size: 2em;
-
     font-weight: bold;
     margin: 2px;
 }
@@ -21,6 +32,7 @@
 }
 
 .section-two-content {
+    position: relative;
     border: 1px solid rgb(190, 188, 188);
     font-size: 0.9em;
     padding: 20px;
@@ -40,24 +52,29 @@
 }
 
 .course-btn {
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 .back-btn {
     position: absolute;
-    top: 400px;
-    left: 0;
+    top: 8%;
+    left: -1%;
     z-index: 1;
 }
 .next-btn {
     position: absolute;
-    top: 400px;
-    right: 0;
+    top: 8%;
+    right: -1%;
     z-index: 1;
 }
 
+#tab-content-1 {
+    position: relative;
+}
 .section-two-list {
+    position: relative;
     display: grid;
+    margin: 0;
     width: 100%;
     overflow: hidden;
     list-style: none;
@@ -68,9 +85,10 @@
 }
 
 .section-two-list-elem {
+    position: relative;
     width: 200px;
     max-width: 400px;
-    margin: 10px;
+    margin: 10px auto;
     box-sizing: border-box;
 }
 
