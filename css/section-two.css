@@ -73,8 +73,7 @@
 
 .rating {
     float: left;
-    display: flex;
-    align-items: center;
+    margin-top: 4px;
     width: 100%;
 }
 
