@@ -8,8 +8,7 @@ const getData = async (url) => {
     for (let i = 0; i < data.length; i++) {
         courseIdxArr = [...courseIdxArr, 0];
         let topic = document.createElement("li");
-        topic.setAttribute("class", "topic-elem nav-item");
-        topic.setAttribute("role", "presentation");
+        topic.setAttribute("class", "topic-elem");
 
         let topicLink = document.createElement("a");
         if (i == 0) {
@@ -21,11 +20,8 @@ const getData = async (url) => {
         }
 
         topicLink.setAttribute("id", "tab-link-" + data[i].id);
-        topicLink.setAttribute("data-bs-toggle", "tab");
+        topicLink.setAttribute("data-toggle", "tab");
         topicLink.setAttribute("href", "#tab-content-" + data[i].id);
-        topicLink.setAttribute("role", "tab");
-        topicLink.setAttribute("aria-controls", "tab-" + data[i].id);
-
         topicLink.textContent = data[i].name;
         topic.appendChild(topicLink);
         topicsNav.appendChild(topic);
@@ -39,11 +35,7 @@ const getData = async (url) => {
             topicContentTab.setAttribute("class", "tab-pane fade");
         }
         topicContentTab.setAttribute("id", "tab-content-" + data[i].id);
-        topicContentTab.setAttribute("role", "tabpanel");
-        topicContentTab.setAttribute(
-            "aria-labelledby",
-            "tab-link" + data[i].id
-        );
+
         renderPage(data[i], topicContentTab);
 
         topicContent.appendChild(topicContentTab);
@@ -75,6 +67,7 @@ function search() {
 
 function showNext() {
     let idx = getActiveTab();
+    console.log("ssss");
 
     if (courseIdxArr[idx] + 1 < data[idx].content.courses.length) {
         let coursesList = document
@@ -87,7 +80,7 @@ function showNext() {
 
 function showBack() {
     let idx = getActiveTab();
-
+    console.log("ssss2");
     if (courseIdxArr[idx] != 0) {
         let coursesList = document
             .querySelector(".section-two-content")
